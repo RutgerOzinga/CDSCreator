@@ -19,7 +19,7 @@ public class FileWriter {
      */
     BufferedWriter bw;
     /**
-     *
+     * writes a line n the file.
      * @param line
      * @throws java.io.IOException
      */
