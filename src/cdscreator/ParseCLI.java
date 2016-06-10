@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package threeframetranslationcheck;
+package cdscreator;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

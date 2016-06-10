@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package threeframetranslationcheck;
+package cdscreator;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -119,7 +119,7 @@ public class ThreeFrameTranslationCheck {
      * @param frame the frame the cds sequence is found in.
      * @return the output line.
      */
-    private String createOutput(String transcriptLine, String proteinLine, int startIndex, int stopIndex, int frame) {
+    public String createOutput(String transcriptLine, String proteinLine, int startIndex, int stopIndex, int frame) {
         int transcriptStart = (startIndex * 3) + frame;
         int transcriptStop = (stopIndex * 3) + frame;
         String[] splittedProtLine = proteinLine.split("\t");
